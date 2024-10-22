@@ -58,30 +58,35 @@ Testing all the Given Challenges:
   
 1) **Challenge 1:**  
   
+![image](https://github.com/user-attachments/assets/e0856daa-b17c-45f1-9070-51977227914a)
 
 
 2)  
   
-![](media/image3.png){width="6.5in" height="3.2222222222222223in"}
+![image](https://github.com/user-attachments/assets/2de474cc-8c9b-47b4-8852-44b8b034dc1d)
+
 
 3)  
   
-![](media/image4.png){width="6.5in" height="1.75in"}  
+![image](https://github.com/user-attachments/assets/3200cf33-0de5-4c28-aceb-761b6c9474ad)
+
   
-![](media/image1.png){width="6.5in" height="1.2777777777777777in"}
+![image](https://github.com/user-attachments/assets/075dedbf-9d1f-4ae9-bbc0-7f584767edd9)
+
 
 4)  
   
-![](media/image2.png){width="6.5in" height="3.0555555555555554in"}
+![image](https://github.com/user-attachments/assets/350f6762-8022-45cf-a6ae-37158bb09ef7)
+
 
 5)  
   
-![](media/image7.png){width="6.5in" height="3.25in"}  
+![image](https://github.com/user-attachments/assets/c52f3219-111a-44ba-90fa-74feb7772f4f)
   
   
 6)  
   
-![](media/image6.png){width="6.5in" height="3.1944444444444446in"}
+![image](https://github.com/user-attachments/assets/3c330872-f9bb-43ae-82d2-294af05cd139)
 
 ## **5) Extensibility of Code:** {#extensibility-of-code}
 
