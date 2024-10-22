@@ -1,0 +1,42 @@
+services:
+  app:
+    container_name: node_app
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_HOST=postgres_db 
+      - DB_PORT=5432
+      - DB_USER=postgres
+      - DB_PASSWORD=******* #use your pwd
+      - DB_NAME=parker
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - db
+    command: npm start
+    networks:
+      - app-network
+
+  db:
+    container_name: postgres_db
+    image: postgres:13
+    environment:
+      POSTGRES_DB: parker
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Shashank@143
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql  
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+volumes:
+  postgres_data:
+
+networks:
+  app-network:
+    driver: bridge
